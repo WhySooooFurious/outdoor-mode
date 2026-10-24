@@ -1,0 +1,11 @@
+android_app {
+    name: "OutdoorMode",
+    srcs: ["src/**/*.java"],
+    resources: "res",
+    manifest: "AndroidManifest.xml",
+    platform: true,
+    certificate: "platform",
+    privileged: true,
+    version: "1.0",
+    min_sdk_version: "34",
+}
